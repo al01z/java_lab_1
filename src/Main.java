@@ -16,6 +16,15 @@ public class Main {
         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
         *  */
+        int liczbaA,liczbaB;
+        double liczbaX, liczbaY;
+        liczbaA = 4;
+        liczbaB = 2;
+        System.out.format("Suma %d i %d to %d. ", liczbaA , liczbaB, (liczbaA+liczbaB));
+        System.out.format("Roźnica %d i %d to %d. ", liczbaA, liczbaB , (liczbaA-liczbaB));
+        System.out.format("Iloczyn %d i %d to %d. ", liczbaA, liczbaB, (liczbaA*liczbaB));
+        System.out.format("Iloraz %d i %d to %d. ", liczbaA, liczbaB, (liczbaA/liczbaB));
+
 
 
 
