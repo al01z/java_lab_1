@@ -20,13 +20,16 @@ public class Main {
         double liczbaX, liczbaY;
         liczbaA = 4;
         liczbaB = 2;
-        System.out.format("Suma %d i %d to %d. ", liczbaA , liczbaB, (liczbaA+liczbaB));
-        System.out.format("Roźnica %d i %d to %d. ", liczbaA, liczbaB , (liczbaA-liczbaB));
-        System.out.format("Iloczyn %d i %d to %d. ", liczbaA, liczbaB, (liczbaA*liczbaB));
-        System.out.format("Iloraz %d i %d to %d. ", liczbaA, liczbaB, (liczbaA/liczbaB));
-
-
-
+        liczbaX = 1.2;
+        liczbaY = 4.2;
+        System.out.println("Suma " + liczbaA + " i " + liczbaB + " to " + (liczbaA+liczbaB));
+        System.out.println("Roźnica " + liczbaA + " i " + liczbaB + " to " + (liczbaA-liczbaB));
+        System.out.println("Iloczyn " + liczbaA + " i " + liczbaB + " to " + (liczbaA*liczbaB));
+        System.out.println("Iloraz " + liczbaA + " i " + liczbaB + " to " + (liczbaA/liczbaB));
+        System.out.println("Suma " + liczbaX + " i " + liczbaY + " to " + (liczbaX+liczbaY));
+        System.out.println("Roznica " + liczbaX + " i " + liczbaY + " to " + (liczbaX-liczbaY));
+        System.out.println("Iloczyn " + liczbaX + " i " + liczbaY + " to " + (liczbaX*liczbaY));
+        System.out.println("Iloraz " + liczbaX + " i " + liczbaY + " to " + (liczbaX/liczbaY));
 
     }
 }
