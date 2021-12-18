@@ -9,6 +9,23 @@ public class Main {
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
+        byte liczbaByte = 127;
+        short liczbaShort = 32767;
+        int liczbaInt = 2147483647;
+        long liczbaLong = 92233725;
+        float liczbaFloat = 666.6f;
+        double liczbaDouble = 124455.56789;
+        boolean wartoscBoolean = true;
+        char wartoscChar = 'h';
+        String wartoscString = "Jakis ciag znakow.";
+        System.out.println(liczbaByte);
+        System.out.println(liczbaShort);
+        System.out.println(liczbaInt);
+        System.out.println(liczbaLong);
+        System.out.println(liczbaFloat);
+        System.out.println(wartoscBoolean);
+        System.out.println(wartoscChar);
+        System.out.println(wartoscString);
 
         /*
         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
