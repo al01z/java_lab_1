@@ -4,24 +4,39 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /* ćw.4 */
+        /* ćw.5 */
 
-        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
-
-        boolean a = false;
-        boolean b = false;
-        boolean c = false;
-        int x = 1;
-        int y = 5;
-        int z = 5;
-        System.out.println("((x == y) && (!a && !b)) : " + ((x == y) && (!a && !b))); // false
-        System.out.println("((z != y) || (!b || c)) : " + ((z != y) || (!b || c))); // true
-        System.out.println("((y > y) && (!c && c)) : " + ((y > y) || (!c && c))); // false
-        System.out.println("((x <= x) || (!a && !b)) : " + ((x <= y) || (!a && !b))); // true
-
+        /* zad.1 podziel swój wiek przez modulo 3 i jeśli twój wiek zwraca 0 wyświetl napis "Podzielny przez 3",
+         * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
+         * */
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Podaj wiek: ");
+        int wiek = scan.nextInt();
+        if ((wiek%3)==0) {
+            System.out.println("Podzielny przez 3");
+        } else {
+            System.out.println("Niepodzielny przez 3");
+        }
 
 
+        /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+        System.out.print("Podaj numer indeksu: ");
+        int numerIndeksu = scan.nextInt();
+        String wynik = ((numerIndeksu%2)==0 ? "Parzysty" : "Nieparzysty");
+        System.out.println("Twoj numer indeksu jest: " + wynik);
 
+
+        /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
+         * i stwórz konstrukcję else if z dowolnymi komunikatami */
+        System.out.print("Podaj liczbe zmienno przecinkowa: ");
+        double liczbaZmiennoprzecinkowa = scan.nextDouble();
+        if ((liczbaZmiennoprzecinkowa%1)==0) {
+            System.out.println("To chyba jednak liczba calkowikita.");
+        } else if (liczbaZmiennoprzecinkowa > 10) {
+            System.out.println("Mamy tu liczbe wieksza od 10");
+        } else {
+            System.out.println("Oho mniejsza od 10. No prosze");
+        }
 
     }
 }
